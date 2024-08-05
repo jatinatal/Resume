@@ -1,4 +1,4 @@
-🔗 [Live Preview Link](https://raw.githack.com/lirad/html-forms/features/index.html)
+🔗 [Live Preview Link](https://raw.githack.com/jatinatal/Resume/main/index.html)
 # Resume
 
 # Overview
