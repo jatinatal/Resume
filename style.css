@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Times New Roman", serif;
+}
+html,
+body {
+  box-sizing: border-box;
+}
+button {
+  border: none;
+  background: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: disc;
+}
+/* Header styling */
+header {
+  background-color: #faf9ff;
+}
+.nav-flex {
+  height: 4rem;
+  font-size: large;
+}
+.nav-item {
+  margin: 0 1rem;
+}
+#icon-main {
+  position: relative;
+  top: 7.5px;
+}
+/* Intro Styling */
+.intro {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 4rem 0;
+}
+.intro-content {
+  width: 50%;
+  margin-left: -150px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.man-img {
+  height: 300px;
+  width: 300px;
+}
+
+.con-1 {
+  font-weight: 600;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.con-2 {
+  font-weight: 600;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.con-3 {
+  font-weight: 400;
+}
+
+.hidden-icons {
+  display: inline-block;
+  font-size: 1.7rem;
+  position: relative;
+  left: 10px;
+  top: 6px;
+}
+.hidden-icons span {
+  margin: 0 0.5rem;
+}
+.hidden-icons span i:hover {
+  transform: scale(1.1);
+}
+
+/* main */
+main {
+  margin-top: 4rem;
+}
+.resume {
+  margin: 2rem 0;
+}
+hr {
+  color: blue;
+  border: 2px solid blue;
+  margin-top: 0.5rem;
+}
+.head {
+  color: rgb(0, 106, 255);
+  font-size: 2.2em;
+  font-weight: 600;
+  cursor: pointer;
+}
+.resume p,
+li {
+  line-height: 2;
+  text-transform: capitalize;
+}
+
+.pro-content h4,
+p {
+  margin-top: 1rem;
+}
+.sub-head {
+  color: rgba(0, 106, 255, 0.871);
+  cursor: pointer;
+}
+.extro {
+  text-align: center;
+}
+.extro-name {
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 2rem 0;
+}
