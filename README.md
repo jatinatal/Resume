@@ -1,3 +1,5 @@
+🔗 [Live Preview Link](https://raw.githack.com/jatinatal/Resume/main/index.html)
+
 # Resume
 
 # Overview
@@ -17,7 +19,6 @@ Hover Effects: Interactive hover effects on the navigation links.
 
 Clone the Repository:
 
-Copy code
 git clone https://github.com/jatinatal/Resume.git
 
 # Open the Project:
