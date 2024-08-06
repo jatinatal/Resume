@@ -29,9 +29,18 @@ header {
   font-size: large;
 }
 .nav-item {
-  margin: 0 1rem;
+  margin: 0 0.5rem;
+}
+#navbarNav {
+  background: #faf9ff;
+  width: 100%;
+  padding: 2rem 2rem 2rem 4rem;
+  z-index: 100;
+  justify-content: flex-end;
+  padding-right: 4rem;
 }
 #icon-main {
+  padding-left: 4rem;
   position: relative;
   top: 7.5px;
 }
@@ -45,7 +54,6 @@ header {
 }
 .intro-content {
   width: 50%;
-  margin-left: -150px;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -53,8 +61,7 @@ header {
 }
 
 .man-img {
-  height: 300px;
-  width: 300px;
+  max-width: 19em;
 }
 
 .con-1 {
